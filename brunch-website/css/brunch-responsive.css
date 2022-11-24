@@ -1,0 +1,1059 @@
+@media (min-width: 320px) and (max-width: 576px) {
+    #main {
+        background-image: url("../images/banner-background.png");
+        /*height: 500px;*/
+
+        height: 100vh;
+
+        padding: 0px 25px;
+    }
+    #menu {
+        display: block;
+
+        padding-left: 34px;
+    }
+    #showmenu {
+        display: none;
+    }
+    /*.container {
+        max-width: 236px;
+        width: 100%;
+        margin: 0 auto;
+    }*/
+    .logo-left {
+        font-size: 16px;
+        width: 50%;
+        float: left;
+    }
+    nav {
+        width: 19%;
+        float: right;
+    }
+    nav ul li {
+        font-size: 12px;
+        padding: 4px 2px 6px 0px;
+    }
+    .title-1 {
+        font-size: 53px;
+    }
+    .title-2 {
+        font-size: 21px;
+        line-height: 0px;
+        letter-spacing: 0px;
+    }
+    .banner-centerbox {
+        width: 279px;
+        height: 167px;
+        top: 50%;
+
+        padding: 4px 64px 132px;
+    }
+    .banner-image {
+        margin-top: 23px;
+    }
+    .button-box {
+        padding-top: 25px;
+    }
+    .button-box a {
+        font-size: 17px;
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        color: white;
+    }
+    #banner-bottom {
+        padding: 0px 34px;
+    }
+    .overall-text {
+        width: 100%;
+        min-height: 500px;
+        float: left;
+        padding: 59px 0px;
+    }
+    .left-text {
+        width: 100%;
+        float: left;
+        line-height: 25px;
+        padding-bottom: 24px;
+        margin-top: 0px;
+    }
+    .right-image {
+        width: 100%;
+        float: none;
+    }
+    .right-image img {
+        width: 255px;
+    }
+    .left-text h2 {
+        font-size: 20px;
+    }
+    .left-text p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .overall-dish-column {
+        padding: 1px 0px;
+    }
+    #dishes-column {
+        height: auto;
+        padding: 43px 45px;
+    }
+    .outer {
+        margin-bottom: 14px;
+    }
+
+    .left-tastes {
+        width: 100%;
+        float: left;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    .left-tastes h3 {
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+    .inner-text {
+        font-size: 15px;
+        /* width: 216px;*/
+    }
+    #dishes-price-list {
+        width: 100%;
+        height: auto;
+        padding: 49px 16px;
+        /* height: 819vh;*/
+        background-image: url(../images/dish-pricelist-back.png);
+    }
+    /*.price-container{
+        max-width: 500px;
+    }*/
+    .pricelist-box h4 {
+        font-size: 45px;
+    }
+    .pricelist-title {
+        font-size: 25px;
+    }
+    .form-title {
+        font-size: 15px;
+    }
+
+    .dishlist-details img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .dishlist-details {
+        width: 100%;
+        padding-bottom: 38px;
+    }
+    .outer-ball-color {
+        width: 27px;
+        height: 27px;
+    }
+    .dishes-title {
+        font-size: 15px;
+    }
+    .outer-pricelist {
+        width: 32%;
+
+        padding-top: 19px;
+    }
+    #pricelist-bottom {
+        height: 400px;
+        padding: 0px 16px;
+    }
+    .traditional-list ul {
+        margin: 32px 0px 20px 0px;
+    }
+    .traditional-list ul li {
+        margin: 0px 13px;
+    }
+    .traditional-list a {
+        font-size: 14px;
+    }
+    #menu-list {
+        width: 100%;
+        height: 1029px;
+    }
+    .menu-row {
+        width: 100%;
+        float: left;
+        padding: 26px 0px 11px 0px;
+    }
+    .menu-img img {
+        width: 67%;
+    }
+    .footer-overall-main ul li {
+        font-size: 15px;
+    }
+    .menu-img {
+        padding: 17px 0px;
+    }
+    .menu-outer-circle {
+        width: 60px;
+        height: 55px;
+    }
+    .menu-title-1 {
+        font-size: 53px;
+        line-height: 57px;
+    }
+    .menu-title-2 {
+        font-size: 32px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 39px;
+    }
+    .menu-text {
+        width: 71%;
+        margin-left: 16px;
+    }
+    .pricelist-text {
+        width: 100%;
+    }
+    .menu-centerbox {
+        width: 100%;
+        /* height: 1308px;*/
+        height: 906px;
+        top: 56%;
+    }
+    .menu-column-second {
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+    }
+    .menu-column-first {
+        width: 100%;
+        float: left;
+    }
+    #menu-list-picture {
+        width: 100%;
+        height: 400px;
+        background-image: url(../images/menu-pricelist-bottom.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .title-contactform {
+        font-size: 45px;
+    }
+    .overall-row-outer {
+        margin-left: 0px;
+    }
+    .overall-form-row {
+        width: 100%;
+        float: left;
+        padding: 6px;
+    }
+    #contact-form {
+        height: 638px;
+    }
+    .form-row {
+        width: 100%;
+        float: left;
+        padding-bottom: 21px;
+    }
+    input,
+    select {
+        width: 91%;
+    }
+    .form-row-button input {
+        width: 100px;
+        padding: 5px;
+    }
+    #contact-form-picture {
+        width: 100%;
+        float: left;
+        height: 309px;
+    }
+    .dish-menulist-three-row {
+        height: auto;
+
+        padding: 15px 17px;
+    }
+    .menu-title-1 {
+        font-size: 48px;
+        line-height: 57px;
+    }
+    .menu-title-2 {
+        font-size: 29px;
+    }
+    .overall-inner-outer {
+        padding-top: 17px;
+    }
+    .inner-row {
+        width: 100%;
+        margin-bottom: 19px;
+    }
+
+    .quotes-top {
+        font-size: 55px;
+    }
+    .quotes-center p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+    #footer-outer {
+        padding: 26px;
+    }
+    .list-items {
+        padding: 4px;
+    }
+    .list-inline-item {
+        padding: 7px;
+    }
+    .footer-first-text {
+        width: 100%;
+        float: left;
+    }
+    .footer-title {
+        padding-bottom: 17px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .overall-footer-text {
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+    }
+    .footer-second-text {
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        margin-left: 0px;
+        /* margin-left: 0px;
+        text-align: center;*/
+    }
+    .footer-first-text p {
+        width: 100%;
+        color: #2d2f2a;
+        font-size: 15px;
+    }
+    .footer-third-text {
+        width: 33.3%;
+        float: left;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .new-heading a {
+        font-size: 14px;
+    }
+    .footer-overall-main ul li {
+        /* display: inline-block;*/
+        padding-left: 11px;
+
+        font-size: 15px;
+    }
+
+    .footer-fourth-text {
+        width: 33.3%;
+        float: left;
+        padding-left: 0px;
+        text-align: center;
+    }
+    #footer {
+        padding: 20px 17px;
+        height: 355px;
+    }
+
+    .style-image-left {
+        display: none;
+    }
+    .style-image-right {
+        display: none;
+    }
+
+    #dishes {
+        padding: 50px 20px;
+    }
+    .speciality-container {
+        max-width: 100%;
+    }
+    .dishes-head {
+        padding: 25px 0px;
+    }
+    .dishes-col-img {
+        width: 100%;
+        height: 200px;
+    }
+    .dishes-col-text {
+        width: 100%;
+        margin-bottom: 40px;
+        min-height: 100px;
+        height: auto;
+        text-align: center;
+        padding: 30px;
+    }
+    .dishes-title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .text-outer p {
+        font-size: 17px;
+        margin: 15px 0px 15px 0px;
+    }
+    .dishes-rate {
+        font-size: 15.5px;
+    }
+    .text-outer {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .dishes-head p {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .dishes-head h2 {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .out-special > :nth-child(4) {
+        margin-bottom: 0px;
+    }
+    .out-special > :nth-child(6) {
+        margin-bottom: 0px;
+    }
+    .out-special > :nth-child(7) {
+        margin-bottom: 40px;
+    }
+    .out-special > :nth-child(8) {
+        margin-bottom: 0px;
+    }
+    .out-special > :nth-child(10) {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    #main {
+        width: 100%;
+        background-image: url("../images/banner-background.png");
+        height: 500px;
+        padding: 0px 49px;
+    }
+    .container {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #menu {
+        display: block;
+
+        padding-left: 34px;
+    }
+    #showmenu {
+        display: none;
+    }
+    .logo-left {
+        font-size: 28px;
+    }
+    nav {
+        width: 16%;
+        float: right;
+    }
+    nav ul li {
+        font-size: 14px;
+        padding: 4px 2px 6px 0px;
+    }
+    .title-1 {
+        font-size: 57px;
+    }
+    .title-2 {
+        font-size: 36px;
+        line-height: 0px;
+        letter-spacing: 0px;
+    }
+    .banner-centerbox {
+        width: 71%;
+        height: 222px;
+        top: 56%;
+
+        padding: 25px 0px 0px;
+    }
+    .banner-image {
+        margin-top: 23px;
+    }
+    .button-box {
+        padding-top: 25px;
+    }
+    .button-box a {
+        font-size: 27px;
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        color: white;
+    }
+    .banner-bottom-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .overall-text {
+        width: 100%;
+        min-height: 500px;
+        float: left;
+        padding: 59px 0px;
+    }
+    .left-text {
+        width: 100%;
+        float: left;
+        line-height: 25px;
+        padding-bottom: 24px;
+        margin-top: 0px;
+    }
+    .right-image {
+        width: 100%;
+        float: none;
+    }
+    .right-image img {
+        width: 100%;
+    }
+    .left-text h2 {
+        font-size: 25px;
+    }
+    .left-text p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .overall-dish-column {
+        padding: 1px 0px;
+    }
+    #dishes-price-list {
+        width: 100%;
+        height: auto;
+        /* height: 819vh;*/
+        background-image: url(../images/dish-pricelist-back.png);
+    }
+    .pricelist-box h4 {
+        font-size: 45px;
+    }
+    .pricelist-title {
+        font-size: 25px;
+    }
+
+    .dishlist-details img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .dishlist-details {
+        width: 100%;
+        padding-bottom: 38px;
+    }
+    .pricelist-box {
+        width: 365px;
+        height: 1000vh;
+        margin-left: 106px;
+        margin-top: 33px;
+    }
+    .dishlist-details h5 {
+        padding-top: 20px;
+    }
+
+    .pricelist-text h6 {
+        font-size: 19px;
+        padding-bottom: 20px;
+        line-height: 26px;
+    }
+    .pricelist-text p {
+        color: #2a3b40;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .outer-ball-color {
+        width: 27px;
+        height: 27px;
+    }
+    .outer-pricelist {
+        width: 45%;
+        padding-top: 19px;
+    }
+    .left-tastes {
+        width: 100%;
+        float: left;
+        padding-right: 30px;
+        padding-bottom: 38px;
+    }
+    .left-tastes h3 {
+        padding-bottom: 9px;
+    }
+    #dishes-column {
+        height: auto;
+
+        padding: 44px 58px;
+    }
+    .pricelist-text {
+        padding-top: 36px;
+        width: 100%;
+    }
+    .style-image-left {
+        display: none;
+    }
+    .style-image-right {
+        display: none;
+    }
+    .outer-pricelist {
+        width: 19%;
+    }
+    #pricelist-bottom {
+        width: 100%;
+        height: 300px;
+    }
+    .menu-title-1 {
+        font-family: Cookie;
+        font-size: 55px;
+    }
+    .menu-title-2 {
+        font-size: 41px;
+    }
+    .menu-column-first {
+        width: 100%;
+        padding-top: 17px;
+    }
+    .menu-column-second {
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+    }
+    .menu-centerbox {
+        width: 100%;
+        height: auto;
+        top: 56%;
+    }
+    #menu-list {
+        height: 897px;
+    }
+    .menu-row {
+        width: 100%;
+        float: left;
+        padding: 10px 0px 24px 0px;
+    }
+
+    #menu-list-picture {
+        width: 100%;
+        height: 400px;
+    }
+    .overall-row-outer {
+        margin-left: 0px;
+    }
+    input,
+    select {
+        width: 78%;
+    }
+    .form-row-button {
+        padding-right: 46px;
+    }
+    #contact-form-picture {
+        height: 400px;
+    }
+    .dish-menulist-three-row {
+        padding: 4px 0px;
+        height: auto;
+    }
+    .menu-title-2 {
+        font-size: 38px;
+        line-height: 30px;
+    }
+    .inner-row {
+        width: 56%;
+        margin-bottom: 20px;
+    }
+    .overall-inner-outer {
+        width: 83%;
+        float: left;
+        margin-left: 114px;
+        padding-top: 40px;
+    }
+    .footer-first-text {
+        width: 100%;
+        float: left;
+    }
+    .footer-title {
+        padding-bottom: 17px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .overall-footer-text {
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+    }
+    .footer-second-text {
+        width: 33.3%;
+        float: left;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .footer-first-text p {
+        width: 100%;
+        color: #2d2f2a;
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-third-text {
+        width: 33.3%;
+        float: left;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .footer-fourth-text {
+        width: 33.3%;
+        float: left;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .footer-overall-main ul li {
+        padding-left: 11px;
+    }
+    #footer {
+        padding: 33px 0px;
+        height: auto;
+    }
+
+    #dishes {
+        padding: 50px 30px;
+    }
+    .dishes-head {
+        padding: 25px 0px;
+    }
+    .dishes-head p {
+        font-size: 58px;
+        line-height: 65px;
+    }
+    .dishes-head h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .dishes-col-img {
+        width: 50%;
+        height: 200px;
+    }
+    .dishes-col-text {
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+    }
+    .text-outer {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .dishes-title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .text-outer p {
+        font-size: 17px;
+        margin: 15px 0px 15px 0px;
+    }
+    .dishes-rate {
+        font-size: 15.5px;
+    }
+    .out-special > :nth-child(4) {
+        float: right;
+    }
+    .out-special > :nth-child(6) {
+        float: right;
+    }
+    .out-special > :nth-child(12) {
+        float: right;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    #main {
+        background-image: url("../images/banner-background.png");
+        height: 652px;
+        padding: 0px 45px;
+        width: 100%;
+    }
+    .banner-bottom-container {
+        max-width: 714px;
+    }
+    .menu-title-2 {
+        font-size: 33px;
+    }
+    .menu-title-1 {
+        font-size: 63px;
+    }
+    .logo-left {
+        font-size: 24px;
+    }
+    .left-text h2 {
+        font-size: 27px;
+    }
+    .overall-text {
+        height: auto;
+        min-height: 0px;
+    }
+    .left-text p {
+        font-size: 17px;
+    }
+    nav {
+        width: 68%;
+        float: right;
+    }
+    nav ul li {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .title-1 {
+        font-size: 57px;
+        line-height: 65px;
+    }
+    .title-2 {
+        font-size: 36px;
+        line-height: 23px;
+        letter-spacing: 0px;
+    }
+    .banner-centerbox {
+        width: 59%;
+        height: 262px;
+        top: 54%;
+        padding: 37px 0px 0px;
+    }
+    .left-text {
+        width: 50%;
+        float: left;
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    .container {
+        max-width: 700px;
+    }
+    #dishes-column {
+        height: auto;
+        padding: 62px 47px;
+    }
+    .inner-text {
+        font-size: 15px;
+    }
+
+    .overall-dish-column {
+        padding: 2px 0px;
+    }
+    .dishlist-details h5 {
+        padding-top: 24px;
+    }
+    .dishlist-details p {
+        color: #304751;
+        font-size: 13px;
+    }
+    #footer {
+        padding: 64px 47px;
+    }
+
+    .dishlist-details img {
+        width: 175px;
+    }
+    .pricelist-box {
+        height: 717px;
+    }
+    .pricelist-box h4 {
+        font-family: Cookie;
+        font-size: 55px;
+    }
+
+    .pricelist-title {
+        font-size: 45px;
+    }
+    #dishes-price-list {
+        height: auto;
+    }
+    .outer-pricelist {
+        width: 14%;
+        margin: 0 auto;
+        padding-top: 26px;
+    }
+    .pricelist-text p {
+        color: #2a3b40;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .pricelist-text h6 {
+        color: #2a3b40;
+        font-size: 25px;
+    }
+
+    .pricelist-text {
+        padding-top: 37px;
+        width: 100%;
+    }
+
+    .traditional-list ul {
+        margin: 24px 0px 18px 0px;
+    }
+    .style-image-right {
+        display: none;
+    }
+    .style-image-left {
+        display: none;
+    }
+    #pricelist-bottom {
+        height: 328px;
+    }
+    .menu-centerbox {
+        width: 100%;
+        height: auto;
+        opacity: 0.82;
+        background-color: #ffffffd6;
+        padding: 27px;
+        top: 63%;
+    }
+    #menu-list {
+        height: 0 auto;
+    }
+    .menu-column-second {
+        padding-left: 63px;
+    }
+    #menu-list-picture {
+        height: 0 auto;
+    }
+    .overall-row-outer {
+        margin-left: 0px;
+    }
+    input,
+    select {
+        width: 78%;
+    }
+    .form-row-button {
+        padding-right: 46px;
+    }
+    #contact-form-picture {
+        height: 0 auto;
+    }
+    .inner-row {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .overall-inner-outer {
+        padding-top: 35px;
+    }
+    .footer-first-text {
+        width: 40%;
+    }
+
+    .footer-second-text {
+        width: 15%;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .footer-third-text {
+        width: 14%;
+    }
+
+    .footer-fourth-text {
+        width: 16%;
+        float: left;
+    }
+    .footer-first-text p {
+        width: 100%;
+    }
+
+    .right-image img {
+        width: 380px;
+    }
+    .menu-text {
+        width: 223px;
+    }
+
+    #dishes {
+        padding: 50px 30px;
+    }
+    .speciality-container {
+        max-width: 100%;
+    }
+    .dishes-head {
+        padding: 25px 0px;
+    }
+    .dishes-head h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .dishes-head p {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .dishes-col-img {
+        height: 180px;
+    }
+    .dishes-col-text {
+        height: 180px;
+    }
+    .text-outer {
+        margin: 27px 5px;
+    }
+    .dishes-title {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .text-outer p {
+        font-size: 13px;
+        margin: 10px 0px 0px 0px;
+    }
+    .dishes-rate {
+        font-size: 13.5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1250px) {
+    #main {
+        padding: 0px 60px;
+    }
+    #banner-bottom {
+        padding: 0px 24px;
+    }
+    .right-image img {
+        width: 467px;
+    }
+    #dishes-column {
+        padding: 37px 32px;
+    }
+    .speciality-container {
+        max-width: 920px;
+    }
+    .main-container {
+        max-width: 920px;
+    }
+    .menu-column-second {
+        width: 56%;
+        float: left;
+        padding-left: 105px;
+    }
+    .outer-pricelist {
+        width: 17%;
+        padding-top: 22px;
+    }
+    .pricelist-text {
+        text-align: center;
+        width: 61%;
+        height: 4px;
+        float: left;
+        padding-top: 48px;
+    }
+
+    .pricelist-text p {
+        font-size: 16px;
+    }
+    #pricelist-bottom {
+        width: 100%;
+        height: 346px;
+    }
+    .style-image-left {
+        width: 21%;
+    }
+    /*   .footer-container{
+        max-width: 1200px;
+    }*/
+    #footer {
+        padding: 50px 65px;
+    }
+    .overall-inner-outer {
+        padding-top: 16px;
+    }
+    .dish-menulist-three-row {
+        padding: 37px 44px;
+    }
+}
