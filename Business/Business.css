@@ -1,0 +1,492 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.body
+{
+
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.nav_bar
+{
+    padding-top: 18px;
+    width: 100%;
+    min-height: 550px;
+    background-color:transparent;
+    background-image: url(Backfood.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.nav_bar h1
+{
+    color: white;
+}
+.nav_menu a
+{
+   color: white;
+   font-size: 14px;
+   font-family: 'Libre Franklin', sans-serif;
+}
+.nav_menu button
+{
+    border-radius: 4px;
+    padding: 9px 15px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.container
+{
+    margin-left: 400px;
+    max-width: 1200px ;
+}
+.logo
+{
+    text-decoration: none;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav_menu
+ {
+    
+     float: right;
+     margin-top: 10px;
+     padding: 0px;
+ }
+ .nav_menu a
+ {
+     padding: 20px 20px;
+     text-decoration: none;
+ }
+.banner{
+    
+    width: 100%;
+    padding-top: 50px;
+}
+.banner h1 {
+    margin-top: 130px;
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.banner p{
+  
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+.button{
+    padding: 10px 20px;
+    border: 1px solid rgb(17, 15, 15);
+    border-radius: 8px;
+    margin-left:45%;
+    margin-top: 22px;
+    background-color: #5ab963;
+    border:  1px solid #5ab963;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    
+
+}
+.button:hover{
+    background-color:rgba(194, 241, 179, 0.863); ;
+    border: 1px solid rgba(198, 231, 187, 0.863);
+    color: rgb(200, 192, 192);
+    font-weight: bold;
+}
+.btn1{
+    background:transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border:  2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: #fff;
+    color: rgb(201, 190, 190);
+}
+
+
+.about{
+    width: 100%;
+    padding: 120px 30px;
+    float: left;
+    font-size: 20px;
+    
+    
+    }
+    .para
+    {
+    color: #b3b3b3;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+    padding-bottom: 80px;
+    display: grid;
+    text-align-last: center;
+    }
+
+    .text_span
+    {
+        color: #000;
+    font-weight: 800;
+    }
+  
+   
+    .card_outer{ 
+        width: 33.3%;
+        float: left;
+        height: 300px;
+        border: 1px solid #f7f7f7;
+        box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+        padding: 50px;
+    
+    }
+    .f_icon{
+        width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+   
+    }
+    .card_text{
+       
+        color: black;
+       
+    }
+    .card_text h3
+    {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-family: 'Libre Franklin', sans-serif;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+    
+    }
+    .card_text i{
+        font-size: 20px;
+        
+    }
+    .food_img{
+       
+       width: 100%;
+       padding: 115px 30px;
+       margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+       
+    
+   
+    .food_text{
+        padding-top: 100px;
+        padding-bottom: 150px;
+        padding-left: 500px;
+    }
+    .food_text h4{
+    
+        color: #b3b3b3;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    width: 60%;
+   
+        
+    }
+    .link{
+        
+    transition: color 200ms ease;
+    font-family: 'IBM Plex Mono', sans-serif;
+    color: #5ab963;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    }
+    .line_color{
+        height: 1px;
+    background-color: #e6e6e6;
+    }
+    .premium{
+        display: flex;
+        width: 100%;
+        }
+    
+
+    .premium_img{
+       
+        float: left;
+        width: 50%;
+    }
+    .premium_text1 img{
+      padding-left: 500px;
+    }
+   
+   
+    .premium p{
+        margin-left:120px;
+        margin-top: 150px;
+        width: 400px;
+        font-size: 20px;
+        font-weight: bold;
+       
+     
+    }
+    .premium_text{
+        width: 50%;
+        float: right;
+    }
+    .premium_text1{
+      
+        float: left;
+        width: 50%;
+        padding-top: 100px;
+    }
+    .premium_text h5{
+         
+        color: #b3b3b3;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: justify;
+    padding-bottom: 100px;
+    
+    }
+    .deal{
+        margin-top: 30px;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    .h3 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-family: 'Libre Franklin', sans-serif;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .link {
+        font-family: 'IBM Plex Mono', sans-serif;
+        color: #5ab963;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .premium_text1 h6{
+        color: #b3b3b3;
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 300;
+        font-family: 'Libre Franklin', sans-serif;
+        text-align: justify;
+        padding-bottom: 100px;
+    }
+
+  
+    .center img{
+     width: 450px;
+     height: 300px;
+     margin-left: 180px;
+     border-radius: 12px;
+    
+    }
+    .text{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10%;
+        margin-left: 40%;
+        color: black;
+    }
+    .a_tag{
+        color: green;
+        text-decoration: none;
+        margin:5px;
+        margin-left: 45%;
+        font-size: 12px;
+        padding: 5px;
+       }
+       .end{
+           margin-top: 80px;
+           margin-left:40px;
+           display: flex;
+       }
+       .end p{
+           width: 300px;
+       }
+       .end button{
+           padding:10px 18px;
+           margin: 15px;
+           margin-left: 52%;
+           border-color: rgb(25, 190, 33);
+           background-color: rgb(25, 190, 33);
+           border-radius: 5px;
+           color: white;
+           font-size: 18px;
+           font-weight: bold;
+           outline: none;
+           border: none;
+       }
+    .end button:hover{
+        background-color:rgb(49, 98, 3)
+    }
+  
+    .center p{
+        width: 300px;
+        margin-left:250px;
+        margin-top:160px;
+    }
+    .center{
+        display: flex;
+    }
+    .text{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10%;
+        margin-left: 40%;
+        color: black;
+    }
+    .a_tag{
+        color: green;
+        text-decoration: none;
+        margin:5px;
+        margin-left: 45%;
+        font-size: 12px;
+        padding: 5px;
+       }
+       .premium_end{
+          margin-top: 100px;
+          padding-bottom: 150px;
+       }
+       .premium_end h5{
+        color: #5ab963;
+       }
+       .premium_end p{
+          text-align: justify;
+          padding-bottom: 20px;
+       }
+       .premium_end button{
+           padding:10px 18px;
+           margin: 15px;
+           margin-left: 40%;
+           border-color: rgb(25, 190, 33);
+           background-color: rgb(25, 190, 33);
+           border-radius: 5px;
+           color: white;
+           font-size: 18px;
+           font-weight: bold;
+           outline: none;
+           border: none;
+       }
+       .line_color{
+        height: 1px;
+    background-color: #e6e6e6;
+    }
+    .premium_end button:hover{
+        background-color:rgb(49, 98, 3)
+    }
+    .footer {
+        width: 100%;
+        float: left;
+        padding: 100px 0px;
+        background-color: #0A0E1A;
+        color: #fff;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
+    }
+    .footer_column {
+        width: 100%;
+        float: left;
+    }
+    .column{
+        width: 50%;
+        float: left;
+    }
+    .footer_list {
+        width: 25%;
+        float: left;
+    }
+    .icon_text {
+        margin-top: 15px;
+        font-family: "Libre Franklin", sans-serif;
+        color: #666;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+    .footer_list a {
+        display: block;
+        padding: 10px 0px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    .footer_list i {
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+   
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

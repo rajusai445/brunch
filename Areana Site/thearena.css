@@ -1,0 +1,611 @@
+body{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+
+}
+.header{
+    width: 100%;
+    min-height: 750px;
+    height: auto;
+    background-image: url(banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+   
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-bar img{
+    width: 90px;
+    float: left;
+   
+}
+.nav-menu {
+    text-decoration: none;
+    float: right;
+}
+.home{
+    color: red;
+    text-transform: uppercase;
+}
+.button{
+    width: 91px;
+    height: 31px;
+    color: white;
+    padding: 8px 27px 9px 26px;
+    border-radius: 15.5px;
+    background-image: linear-gradient(to top, #fe3d0c, #fc0742);
+    border-style: none;
+    text-align: center;
+}
+
+.nav-menu a{
+    padding: 10px;
+    line-height: 10px;
+    padding-right: 30px;
+    letter-spacing: 0.17px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Oswald;
+    line-height: 0.59;
+    text-transform: uppercase;
+}
+.nav-menu img{
+    float: right;
+    width: 27px;
+    
+}
+.nav-text{
+    width: 50%;
+    float: left;
+    color: white;
+ 
+}
+.nav-text h1{
+    height: 158px;
+    margin-top: 200px;
+    font-size: 35.5px;
+    font-weight: 300;
+    text-transform: uppercase;
+  
+    line-height: 1.7;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #d0c9c9; 
+    
+}
+.nav-text span{
+    font-size: 39.5px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #fff;
+    
+}
+.nav-text p{
+    font-size: 25px;
+    line-height: 1.8;
+    letter-spacing: 0.25px;
+    color: #fff; 
+    font-family: Roboto;
+    padding-top: 20px;
+}
+.nav-bottom{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.bookpitch{
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding-top: 20px;
+    background-color:  #1b1e25;
+}
+.bookpitch img{
+ 
+    float: left;
+    margin: 20px auto;
+    padding-left: 400px;
+    margin-right: 25px;
+}
+.bookpitch-text{
+  
+   padding-left: 300px;
+}
+.bookpitch-text h2{
+    height: 37px;
+    font-family: Oswald;
+    font-size: 42px;
+    font-weight: 300;
+  
+    line-height: 0.74;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #fff;
+}
+.bookpitch-text button{
+    width: 177px;
+    height: 48px;
+    padding: 18px 39px 17px;
+    text-align: center;
+    border-radius: 24px;
+    background-image: linear-gradient(to top, #ef4923, #e62837);
+    border-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.cafefootball{
+    width: 50%;
+    height: 250px;
+    float: right;
+    padding-top: 20px;
+    background-image: linear-gradient(to top, #ef4923, #e62837);
+}
+.cafefootball-text{
+    float: left;
+    padding-left: 250px;
+}
+.cafefootball img{
+    width: 134px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+.cafefootball-text{
+    padding-left: 300px;
+}
+.cafefootball-text h2{
+    height: 37px;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 0.74;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #fff;
+}
+.cafefootball-text button{
+    width: 177px;
+    height: 48px;
+    padding: 18px 39px 17px;
+    text-align: center;
+    border-radius: 24px;
+    background-color: #1b1e25;
+    border-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.activitycolumn{
+    width: 100%;
+    margin-top: 50px;
+
+}
+.totalrow{
+    width: 100%;
+    float: left;
+    margin: 110px auto;
+}
+.column{
+    width: 310px;
+    height: 331px;
+    float: left;
+    margin-right: 38px;
+    background-color: #111318;
+    position: relative;
+}
+.column img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.column p{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 29px;
+    left: 29px;
+}
+.about{
+    width: 100%;
+    margin-top: 100px;
+}
+.about-left img{
+    width: 30%;
+    padding-left: 100px;
+    float: left;
+}
+.about-text{
+    width: 50%;
+    float: left;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+.about-text h2{
+    font-size: 35px;
+    letter-spacing: 0.35px;
+    text-transform: uppercase;
+}
+.about-text p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+    color: #3b3939;
+    font-weight: 100;
+}
+.promotion{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-bottom: 100px;
+}
+.promo-img{
+    width: 65%;
+    float: left;
+    margin: 40px auto;
+    position: relative;
+}
+.promo-left {
+    width: 42%;
+    min-height: 386px;
+    height: auto;
+    float: left;
+    margin-left: 160px;
+   
+}
+.promo-right {
+    width: 42%;
+    min-height: 386px;
+    height: auto;
+    float: left;
+ 
+}
+.promo-right img{
+    padding-left: 30px;
+}
+.promo-text{
+    position: relative;
+    max-width: 30%;
+    width: 100%;
+    float: right;
+    padding-right: 70px;
+    margin: 28px auto;
+   
+    
+}
+.promotext-background{
+    width: 52%;
+    min-height: 469px;
+    background-image: linear-gradient(to top, #EF4923, #E62837);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.promo-text h2{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.promo-text p{
+    font-size: 18px;
+    text-align: justify;
+   
+    line-height: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    font-weight: 100;
+}
+.promo-text button{
+    width: 177px;
+    height: 48px; 
+    text-align: center;
+    border-radius: 32px;
+    border: solid 2px #fff;
+    background-image: linear-gradient(to top, #ef4923, #e62837);
+    text-align: center;
+    color: white;
+    font-family: Oswald;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.events{
+    width: 100%;
+    margin-top: 100px;
+}
+.event-h1{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0.35px;
+    line-height: 31px;
+    margin-bottom: 108px
+}
+.events-text{
+    width: 690px;
+    min-height: 480px;
+    height: auto;
+}
+.events-text h4{
+
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.41;
+    letter-spacing: 0.22px;
+    color: #e72b35;
+    
+   
+}
+.event-column h1{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.41;
+    letter-spacing: 0.22px;
+    color: #e72b35;
+}
+.events-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.83;
+    letter-spacing: 0.18px;
+    color: #474747;
+}
+.events-column{
+    width: 50%;
+    float: left;
+}
+.events-column img{
+    padding-left: 260px;
+}
+.contact{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+.contact-head{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.contact-head h4{
+    font-size: 35px;
+    line-height: 0;
+    letter-spacing: 0.35px;
+    font-family: Myriad Pro;
+}
+.contact-head p{
+    font-family: Myriad Pro;
+    font-size: 18px;
+    font-weight: 600;
+    color: #474747;
+}
+.contact-icon{
+    width: 50%;
+    float: left;
+}
+.contact-icon img{
+    float: left;
+    margin-right: 20px;
+}
+.contact-icon h6{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #e72b35;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.contact-overallrow{
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+
+}
+.contact-column{
+    width: 50%;
+    float: left;
+    min-height: 781px;
+    height: auto;
+    
+}
+.contact-column form{
+    margin: 30px 0px 0px 80px;
+}
+.contact-column img{
+    width: 100%;
+}
+.fname{
+    float: left;
+    margin-right: 20px;
+}
+.fname label{
+    display: block;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color:black;
+    text-align: left;
+}
+.fname input{
+    width: 282px;
+    height: 44px;
+}
+
+.lname input{
+    width: 282px;
+    height: 44px;
+}
+.contact_1{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.contact label{
+    display: block;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color:black;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.contact input{
+    width: 282px;
+    height: 44px;
+}
+.msg{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.msg label{
+    display: block;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color:black;
+    text-align: left;
+}
+.msg textarea{
+    width: 593px;
+    height: 90px;
+}
+
+.msg input{
+    width: 282px;
+    height: 44px;
+}
+.form_btn{
+    width: 221px;
+    height: 70px;
+    border-radius: 35px;
+    background-image: linear-gradient(to top, #fe3d0c, #fc0742);
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    color: #f5f5f7;
+    margin-top: 30px;
+    border-style: none;
+    text-align: center;
+}
+.signup{
+    width: 100%;
+    float: left;
+    background-image: url(signupbg.png);
+    background-size: cover;
+}
+.signup-inside{
+    width: 899px;
+    height: 253px;
+    background-color: #f5f5f7;
+    text-align: center;
+    margin: 81px auto;
+    padding-top: 40px;
+}
+.signup-insidetext h5{
+    font-size: 35px;
+    letter-spacing: 0.35px;
+    color: #000;
+    margin-bottom: 25px;
+    margin-top: 0px;
+
+}
+.signup-insidetext p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #474747;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.signup-insidetext input{
+    width: 595px;
+    height: 46px;
+    border-radius: 3px;
+    border: solid 1px #474747;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding-left: 100px;
+}
+.signup-insidetext button{
+    width: 221px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #0f0f0f;
+    font-family: Oswald;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    color: #f5f5f7;
+    border-style: none;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(to top, #fe3d0c, #fc0742);
+}
+.footer-logo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.footer-menu{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    padding: 20px 15px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+.footer-menu a{
+    width: 100%;
+    text-align: center;
+    width: 1074px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.social-logo{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 50px auto;
+}
+.social-logo img{
+    margin-right: 20px;
+    width: 30px;
+    height:30px;
+}
+    
+.copy_right{
+    width: 100%;
+    float: left;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.79;
+    text-align: center;
+    color: rgba(245, 245, 247, 0.8);
+    margin-bottom: 30px;
+}
+
+
+
+
+

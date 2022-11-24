@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #5e5c7f;
+}
+.main-banner {
+    width: 100%;
+    float: left;
+    background-color: #353353;
+    min-height: 668px;
+    margin: 0px 0px 65px 0px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.image-set {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.postion {
+    color: #fff;
+    font-size: 20px;
+}
+.list-items {
+    margin: 0px 0px 25px 0px;
+}
+.list-inline-item {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    font-size: 19px;
+}
+.button-banner {
+    border-radius: 10px;
+    border: 1px solid #ff4c60;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 1;
+    padding: 12px 32px;
+    color: #fff;
+    background: #ff4c60;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.aboutme-details {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    clear: both;
+    margin: 0px 0px 75px 0px;
+}
+.overall-title{
+    color: #454360;
+    font-size: 31px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.aboutme-text-image {
+    float: left;
+    width: 20%;
+}
+.button-about {
+    border-radius: 10px;
+    border: 1px solid #ff4c60;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 1;
+    padding: 12px 32px;
+    color: #fff;
+    background: #ff4c60;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.about-text-details {
+    width: 80%;
+    height: 224px;
+    float: right;
+    padding: 28px 89px 24px;
+    color: black;
+    background: #fff;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 /);
+}
+.service-details {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 91px 0px;
+}
+.service-title {
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-size: 31px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+.service-row {
+    width: 100%;
+    float: left;
+}
+.service-box-left {
+    width: 32%;
+    height: 330px;
+    float: left;
+    background-color: rgb(108, 108, 229);
+    -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 /);
+    border-radius: 10px;
+}
+.service-box-center {
+    width: 32%;
+    height: 330px;
+    float: left;
+    background-color: rgb(249, 215, 76);
+    -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 /);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.service-box-center h4 {
+    color: #353353;
+}
+.service-box-right {
+    width: 32%;
+    float: left;
+    height: 330px;
+    background-color: rgb(255, 76, 96);
+    -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 /);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.title-insidebox {
+    color: #fff;
+    padding-bottom: 14px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+}
+.service-text {
+    padding: 30px;
+}
+.service-text img {
+    padding: 0px 109px;
+}
+.exp-row {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 91px 0px;
+}
+.exp-left {
+    width: 42%;
+    height: 477px;
+    float: left;
+    background-color: #fff;
+    margin-left: 68px;
+    -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 /);
+    border-radius: 10px;
+}
+.time {
+    color: #8b88b1;
+    font-size: 14px;
+}
+.text {
+    padding-bottom: 29px;
+}
+.exp-text {
+    padding: 50px;
+}
+h4 {
+    color: #454360;
+}
+.left {
+    color: white;
+}
+.center {
+    color: #454360;
+}
+.right {
+    color: white;
+}
+.contact-form {
+    width: 100%;
+    float: left;
+    margin-bottom: 68px;
+}
+.form-row {
+    width: 100%;
+    float: left;
+}
+.field label {
+    display: block;
+    letter-spacing: 0.15px;
+    text-align: left;
+    margin-bottom: 9px;
+}
+.field input {
+    width: 474px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    padding: 11px;
+    text-align: left;
+}
+.field textarea {
+    width: 474px;
+    height: 87px;
+    background: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    z-index: 2;
+    font-family: ;
+    font-size: 13px;
+    background: rgb(255, 255, 255);
+    padding: 11px;
+    text-align: left;
+}
+span {
+    color: red;
+}
+form {
+    padding-left: 17px;
+}
+.field {
+    margin-bottom: 15px;
+}
+.field_side input {
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #383a4f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.para {
+    width: 30%;
+    float: left;
+}
+.form-column {
+    width: 70%;
+    float: left;
+}
+.field_side input {
+    height: 39px;
+    border-radius: 10px;
+    border: 1px solid #ff4c60;
+    font-weight: 550;
+    font-size: 16px;
+    padding: 12px 32px;
+    color: #fff;
+    background: #ff4c60;
+    margin-top: 6px;
+}
+.form-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+.footer {
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-color: #353353;
+}
+.left-copy {
+    padding-bottom: 20px;
+}
+.copyright-quote {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.up-down {
+    padding-bottom: 20px;
+}
+.copyright-details {
+    text-align: center;
+    padding-top: 65px;
+}
+.footer-info a {
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,209 @@
+@media (min-width: 320px) and (max-width: 680px) {
+    .container {
+        max-width: 252px;
+    }
+    .main-nav {
+        float: right;
+        padding: 17px;
+        margin-bottom: 25px;
+    }
+    /*nav ul li {
+        display: none;
+    }*/
+    #menu {
+        display: block;
+    }
+    nav i {
+        float: right;
+        overflow: hidden;
+    }
+    #showmenu{
+    display: none;
+    
+}
+    .banner {
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 22px;
+    }
+    .postion {
+        font-size: 16px;
+    }
+    .banner-details {
+        width: 100%;
+        margin: 0px;
+    }
+    .banner-profile {
+        width: 100%;
+        float: left;
+    }
+    .banner-profile img {
+        width: 254px;
+    }
+    .about-left {
+        position: relative;
+        width: 100%;
+    }
+    .skills {
+        width: 100%;
+    }
+    .skill-bar {
+        width: 229px;
+        height: 13px;
+    }
+    .skill-name {
+        font-size: 13px;
+    }
+    .skill-per {
+        left: 87%;
+    }
+    .about-right {
+        width: 100%;
+        float: left;
+        /*padding-left: 10px;*/
+        padding-top: 20px;
+    }
+    .about-right p {
+        line-height: 20px;
+        font-size: 15px;
+        padding-bottom: 19px;
+           text-align: center;
+    }
+    .service-box {
+        width: 50%;
+            padding-bottom: 2px;
+    }
+    .form-column {
+        width: 100%;
+    }
+    .field input {
+        width: 213px;
+        padding: 6px;
+    }
+    .field textarea {
+        width: 213px;
+    }
+    .para {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .exp-left {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 24px;
+        -webkit-box-shadow: 0 15px 30px 0 rgb(98 98 98 / 20%);
+    }
+    .exp-text {
+        padding: 38px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .service-box img {
+        width: 254px;
+        height: 307px;
+    }
+    .button-about {
+        font-size: 12px;
+    }
+    .field_side{
+        margin-left: 40px;
+    }
+    .field_side input {
+        border-radius: 10px;
+        border: 1px solid #605859;
+        font-family: "Rubik", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        overflow: hidden;
+        line-height: 1;
+        padding: 13px 34px;
+        color: #fff;
+        background: #605859;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    .button-about{
+       margin-left: 58px;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 990px) {
+    .container {
+        max-width: 620px;
+    }
+    .banner-details {
+        float: left;
+        width: 56%;
+    }
+    .banner-profile {
+        float: right;
+        width: 39%;
+    }
+    .banner-profile img {
+        width: 248px;
+    }
+    .skill-per{
+        left: 46%;
+    }
+    .postion {
+        font-size: 18px;
+    }
+    .about-right {
+        width: 44%;
+        float: right;
+    }
+    .skill-bar {
+        width: 283px;
+    }
+    .about-left {
+        width: 40%;
+        float: left;
+    }
+    .about-right p{
+        font-size: 16px;
+    }
+    .exp-left {
+        width: 72%;
+        margin-bottom: 10px;
+    }
+    .service-box img {
+        width: 100%;
+    }
+    .service-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .field input {
+        width: 349px;
+    }
+    .field textarea {
+        width: 349px;
+    }
+    .service-row {
+        margin: 0 auto;
+        width: 60%;
+        float: unset;
+    }
+}
+    @media (min-width: 991px) and (max-width: 1140px) {
+       .container {
+            max-width: 850px;
+        } 
+        .service-box img {
+            width: 297px;
+            height: 327px; 
+        }
+        .service-box{
+            width: 31%;
+        }
+        .service-row {
+            width: 108%;
+        }
+        .skill-per{
+            left: 47%;
+        }
+
+}
